@@ -1,5 +1,5 @@
 # Python Port Scanner Project
-<img src="img/logo.png" align="right" style="height: 64px"/>
+<img src="img/logo.png" align="right" style="float: right;height: 64px" alt=""/>
 
 This python script can scan port or range of ports on an IP or a domain name using `socket` library.
 
@@ -14,7 +14,9 @@ This python script can scan port or range of ports on an IP or a domain name usi
 * Saves a summary of the scan in a `logs.txt` file.
 
 ## Usage
-you can pass the target IP and ports to the `PortScanner.py` script as an arguments from CTI (Command Line Interface) or simply run the script and it will ask you to enter them.
+you can pass the target IP and ports to the `PortScanner.py` script as an arguments from CTI
+(Command Line Interface) or simply run the script,
+and it will ask you to enter them.
 
 IP can be passed as IPv4 or Domain name that can be resolved.
 
@@ -25,7 +27,7 @@ Port/s can be passed in two forms:
 Example of scanning a range of ports.
 ![01](img/01.png)
 
-During the scanning process you will see a real time logs for all ports.
+During the scanning process, you will see a real time logs for all ports.
 ![02](img/02.png)
 
 After finishing the scanning process a summary will be displayed for only open ports, this summary also saved in `logs.txt` file.
@@ -35,4 +37,6 @@ Example of scanning a single port.
 ![04](img/04.png)
 
 ## Contributing
-Feel free to contribute. Don't hesitate to refactor current code base. This project is mainly build for educational and demonstration purposes, so verbose documentation is welcome.
+Feel free to contribute.
+Don't hesitate to refactor the current code base.
+This project is mainly built for educational and demonstration purposes, so verbose documentation is welcome.

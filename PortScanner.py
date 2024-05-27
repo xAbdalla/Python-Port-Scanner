@@ -1,5 +1,5 @@
 # Python Port Scanner
-# Created By: Abdallah Nour
+# Created By: Abdallah Hamdy
 # Check my GitHub: https://github.com/xAbdalla
 
 from datetime import datetime
@@ -116,7 +116,7 @@ def checkport(ADDRESS, PORT):
     except:
         open_ports = list()
     try:
-        socket.setdefaulttimeout(1)
+        socket.setdefaulttimeout(0.5)
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         res = s.connect_ex((ADDRESS, PORT))
         if res == 0:

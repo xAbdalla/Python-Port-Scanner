@@ -66,7 +66,7 @@
 10111 Call was canceled.
 10112 Database query was refused.
 11001 Host not found.
-11002 Nonauthoritative host not found.
+11002 Non-authoritative host not found.
 11003 This is a nonrecoverable error.
 11004 Valid name, no data record of requested type.
 11005 QoS receivers.
